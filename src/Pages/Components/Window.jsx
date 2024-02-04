@@ -10,7 +10,7 @@ export const Window = () => {
           <input type="password" placeholder="Password" />
           <div className='rorl'>
             <p>New user? Create an <br /> account</p>
-            <button>Login</button>
+            <button>Logi</button>
           </div>
         </form>
       </div>
