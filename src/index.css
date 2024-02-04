@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -47,35 +47,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  .formWrapper{
+  .formWrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
     background-color: #fff;
     padding: 20px 25px 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    span{
+    span {
       color: black;
       font-size: xx-large;
     }
-    form{
+    form {
       display: flex;
       flex-direction: column;
       gap: 15px;
-      input{
+      input {
         border-radius: 25px;
         height: 45px;
         width: 340px;
         background-color: #e0dfff;
         padding-left: 15px;
         border: 1px solid #fff;
-
       }
-      p{
+      p {
         color: #2d67f7;
         padding-right: 60px;
       }
-      button{
+      button {
         height: 39px;
         width: 130px;
         border-radius: 25px;
@@ -84,14 +83,19 @@ body {
         border: 1px solid #fff;
         font-size: 20px;
       }
-      .rorl{
-          display: flex;
-          align-items: center;
+      .rorl {
+        display: flex;
+        align-items: center;
       }
-      
     }
   }
-
 }
 
-
+.cardContainer{
+  background-color: #e0dfff;
+  height: 91.5vh;
+  .cardWrapper{
+    padding: 20px 25px 40px;
+    background-color: #fff;
+  }
+}

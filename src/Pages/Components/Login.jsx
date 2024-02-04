@@ -1,4 +1,4 @@
-import Navbar from './Navbar';
+import Navbar from './Constants/Navbar'
 import { Window } from './Window';
 const Login = () => {
   return (

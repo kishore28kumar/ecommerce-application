@@ -1,8 +1,9 @@
-import Login from "./Pages/Components/Login";
+// import Login from "./Pages/Components/Login";
+import Product from "./Pages/Product";
 function App() {
   return (
     <div>
-      <Login />
+      <Product />
     </div>
   );
 }
