@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 250px;
-  background-color: #2d67f7;
+  background-color: #5b87f7;
   color: #fff;
 
   .right-nav {
@@ -71,14 +71,14 @@ body {
         border: 1px solid #fff;
       }
       p {
-        color: #2d67f7;
+        color: #5b87f7;
         padding-right: 60px;
       }
       button {
         height: 39px;
         width: 130px;
         border-radius: 25px;
-        background-color: #2d67f7;
+        background-color: #5b87f7;
         color: #fff;
         border: 1px solid #fff;
         font-size: 20px;
@@ -91,11 +91,64 @@ body {
   }
 }
 
-.cardContainer{
+.p {
+  margin: 0;
   background-color: #e0dfff;
-  height: 91.5vh;
-  .cardWrapper{
-    padding: 20px 25px 40px;
-    background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 35px;
+  .cardContainer {
+    height: max-content;
+    padding-bottom: 35px;
+    padding-right: 25px;
+    padding-left: 25px;
+    .cardWrapper {
+      height: 275px;
+      width: 240px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      .product {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .bottomCard {
+        padding: 15px 15px 0px;
+        color: gray;
+        p {
+          padding-bottom: 5px;
+        }
+        h5 {
+          background-color: rgb(45, 197, 45);
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 18px;
+          width: 25px;
+          border: 1px solid rgb(45, 197, 45);
+          border-radius: 5px;
+          object-fit: fill;
+        }
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+          margin: 18px 5px 0;
+          height: 20px;
+          width: 20px;
+        }
+        .cart {
+          height: 35px;
+          width: 35px;
+        }
+      }
+    }
   }
 }
