@@ -1,9 +1,13 @@
 import React from 'react'
-
-const Home = () => {
+import Nav from './Components/Constants/Nav'
+import Card from './Components/Constants/Card'
+const Product = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Nav/>
+      <Card/>
+    </div>
   )
 }
 
-export default Home
+export default Product

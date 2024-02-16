@@ -1,13 +1,12 @@
-import React from 'react'
-import Nav from './Components/Constants/Nav'
-import Card from './Components/Constants/Card'
+import Nav from "./Components/Constants/Nav";
+import Prodetail from "./Components/Constants/Prodetail";
 const Product = () => {
   return (
-    <div>
-      <Nav/>
-      <Card/>
-    </div>
-  )
-}
+    <section className="product-detail">
+      <Nav />
+      <Prodetail />
+    </section>
+  );
+};
 
-export default Product
+export default Product;
