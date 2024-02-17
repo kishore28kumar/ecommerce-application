@@ -226,3 +226,140 @@ body {
     }
   }
 }
+
+.contain {
+  background-color: #e0dfff;
+  height: 91.75vh;
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bot button {
+    margin-left: 130px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5b87f7;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+  }
+}
+
+.win {
+  margin: 20px 30px 20px 130px;
+  height: 350px;
+  width: 550px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+  h1 {
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 10px;
+  }
+
+  .wina {
+    height: 130px;
+    width: 500px;
+    border-top: 1px solid rgb(249, 241, 241);
+    border-right: 1px solid rgb(249, 241, 241);
+    border-left: 1px solid rgb(249, 241, 241);
+    border-bottom: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    box-shadow: 0.5px 1px rgba(0, 0, 0, 0.2);
+    margin: 0px 25px 20px;
+    display: flex;
+
+    h1 {
+      font-size: larger;
+      color: gray;
+    }
+
+    .rimid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 15px;
+      p {
+        color: gray;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+    .riend {
+      display: flex;
+      align-items: center;
+      padding: 7px 80px;
+      button {
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        background-color: #5b87f7;
+        color: #fff;
+        border: none;
+        font-size: larger;
+        cursor: pointer;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        border: 2px solid rgb(185, 183, 183);
+      }
+    }
+  }
+
+  img {
+    height: 100%;
+    width: 20%;
+    object-fit: fill;
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+  }
+}
+
+.lft {
+  height: 300px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-right: 400px;
+  padding: 20px 20px 0px;
+  h1 {
+    color: gray;
+    font-size: 25px;
+    font-weight: 100;
+  }
+  .det {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px rgba(224, 197, 197, 0.2);
+    ul {
+      list-style-type: none;
+      line-height: 30px;
+    }
+    .last {
+      text-align: end;
+    }
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    h2 {
+      font-weight: 100;
+    }
+  }
+}

@@ -1,9 +1,13 @@
-import React from 'react'
+import Nav from "./Components/Constants/Nav";
+import Card2 from "./Components/Constants/Card2";
 
 const Cart = () => {
   return (
-    <div>Cart</div>
-  )
-}
+    <section className="cart">
+      <Nav />
+      <Card2 />
+    </section>
+  );
+};
 
-export default Cart
+export default Cart;
