@@ -230,6 +230,7 @@ body {
 .contain {
   background-color: #e0dfff;
   height: 91.75vh;
+
   .top {
     display: flex;
     justify-content: space-between;
@@ -365,17 +366,20 @@ body {
   }
 }
 
-/* .opl {
+.opl {
   position: fixed;
   top: 35%;
   left: 40%;
   padding: 22px 0px;
   z-index: var(1000);
-  backdrop-filter: blur(24px);
   height: 235px;
   width: 300px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-} */
+}
+
+.ops {
+  filter: brightness(50%);
+}
