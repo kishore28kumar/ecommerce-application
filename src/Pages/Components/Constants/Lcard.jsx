@@ -1,5 +1,3 @@
-import React from "react";
-
 const Lcard = () => {
   return (
     <section className="lft">
@@ -18,7 +16,7 @@ const Lcard = () => {
       </div>
       <div className="total">
         <h2>Total</h2>
-        <h2>2100</h2>
+        <h2>₹ 2100</h2>
       </div>
     </section>
   );

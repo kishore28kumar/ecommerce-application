@@ -1,6 +1,7 @@
 import React from "react";
 import Rcard from "./Rcard";
 import Lcard from "./Lcard";
+// import Orderp from "./Orderp";
 const Card2 = () => {
   return (
     <section className="contain">
@@ -13,6 +14,7 @@ const Card2 = () => {
           <button>PLACE ORDER</button>
         </div>
       </section>
+      {/* <Orderp /> */}
     </section>
   );
 };
